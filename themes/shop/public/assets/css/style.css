@@ -1,0 +1,64 @@
+/* Custom Props */
+
+:root {
+  --fz-small: .875rem;
+}
+
+/* Tags */
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Components */
+
+.header {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .15);
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-align-items: center;
+   align-items: center;
+
+  height: 4rem;
+}
+
+.logo {
+  text-transform: uppercase;
+  -webkit-flex: 1;
+  flex: 1;
+  -webkit-flex-basis: 0.000000001px;
+  flex-basis: 0.000000001px;
+}
+
+.logo a {
+  width: 10rem;
+  padding: .5rem 0;
+  display: inline-block;
+  text-align: center;
+}
+
+.cart {
+  width: 2rem;
+  margin: 1rem;
+  line-height: 2rem;
+  font-size: var(--fz-small);
+  display: block;
+}
+
+.hero {
+  height: 20rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+ /* large size */
+@media screen and (min-width: 64rem) {
+  .logo a {
+    width: 15rem;
+  }
+}
