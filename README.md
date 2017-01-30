@@ -11,3 +11,5 @@ Mark up web pages!
 ## Parts
 
 :construction_worker: Work In Progress
+
+* [Clip Path](parts/clip-path/README.md)
