@@ -1,0 +1,14 @@
+.Container {
+  padding: 3rem;
+}
+
+.ClipCircle {
+}
+
+img {
+  width: 400px;
+}
+
+.ClipSVG {
+  clip-path: url(#text-f);
+}
